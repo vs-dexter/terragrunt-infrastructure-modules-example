@@ -69,7 +69,7 @@ resource "aws_launch_configuration" "webserver_example" {
 
 data "aws_ami" "ubuntu" {
   most_recent = true
-  owners      = ["08c0597c8377ec015"] # Canonical
+  owners      = ["099720109477"] # Canonical
 
   filter {
     name   = "virtualization-type"
